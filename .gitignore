@@ -1,0 +1,20 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.idea/
+reading-list/gradle/
+sba-one/.gradle/
+sba-one/.idea/
+sba-one/src/main/resources/
+sba-one/src/test/
+secured-reading-list/gradle/
+secured-reading-list/src/main/resources/static/
+secured-reading-list/src/main/resources/templates/
+spring-boot-in-action/ch06/gormgsp/src/main/java/
+spring-boot-in-action/ch06/grails/grails-app/services/
+spring-boot-in-action/ch06/grails/grails-app/taglib/
+spring-boot-in-action/ch06/grails/grails-app/utils/
+spring-boot-in-action/ch06/grails/src/integration-test/
+spring-boot-in-action/ch06/grails/src/main/
+spring-boot-in-action/ch08/readinglist_cloud/db/
+spring-boot-in-action/ch08/readinglist_war/db/
+unsecured-reading-list/
