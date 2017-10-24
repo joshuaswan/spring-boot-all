@@ -23,6 +23,6 @@ public class ReadingListApplication extends WebMvcConfigurerAdapter{
 
 	@Override
 	public void addArgumentResolvers(List<HandlerMethodArgumentResolver> argumentResolvers) {
-//		argumentResolvers.add()
+		argumentResolvers.add(new ReaderHandlerMethodArgumentResolver());
 	}
 }

@@ -8,3 +8,6 @@ amazon:
 logging:
   level:
     root: DEBUG
+
+server:
+  max-http-header-size: 10000

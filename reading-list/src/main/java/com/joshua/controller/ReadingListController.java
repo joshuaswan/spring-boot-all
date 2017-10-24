@@ -58,6 +58,9 @@ public class ReadingListController {
 
     @RequestMapping(method = RequestMethod.POST)
     public String addToReadingList(Reader reader,Book book){
+
+        System.out.println("---------------------------------POST--------------------------------------");
+        System.out.println(book.getTitle());
         book.setReader(reader);
         readingListRepository.save(book);
         return "redirect:/";
