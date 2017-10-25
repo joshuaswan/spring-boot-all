@@ -15,5 +15,6 @@ public class UnsecureReadingListApplication extends WebMvcConfigurerAdapter {
 	@Override
 	public void addViewControllers(ViewControllerRegistry registry) {
 		registry.addRedirectViewController("/","/readingList");
+		registry.addRedirectViewController("/","/info");
 	}
 }
